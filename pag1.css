@@ -8,16 +8,14 @@
 
 /*Fontes:*/
 
-header, h2 {
+header, h1, h2, h3 {
     font-family: "Bungee", sans-serif;
-}
-
-h1, h2 {
-    font-weight: normal;
+    font-weight: normal
 }
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #182c61;
 }
 
 /*Header:*/
@@ -63,10 +61,6 @@ header nav li a {
     padding-bottom: 20px;
 }
 
-#section1 {
-    color: #182c61;
-}
-
 #section1 ul {
     padding-top: 30px;
 }
@@ -78,4 +72,68 @@ header nav li a {
 
 ul li img {
     height: 24px;
+}
+
+/*Seção de contatos(#section2):*/
+
+#section2 {
+    padding: 0px 30px;
+}
+
+#section2 > div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#section2 div {
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+#section2 form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #182c61;
+    font-family: "Roboto", sans-serif;
+}
+
+form input:focus, form textarea:focus {
+    outline-color: blue;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #182c61;
+    color: white;
+    border: none;
+    font-family: "Bungee", sans-serif;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+#section2 ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#section2 ul li a {
+    text-decoration: none;
+}
+
+/*Footer:*/
+
+footer {
+    background-color: #182c61;
+    color: white;
+    padding: 16px 0px 16px 30px;
 }
